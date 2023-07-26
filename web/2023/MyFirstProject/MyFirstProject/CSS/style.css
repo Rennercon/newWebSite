@@ -1,0 +1,99 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* Это позволит центрировать элемент по вертикали во всем окне */
+  }
+  
+  .centered-button {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.3s ease;
+  }
+
+  .bt {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background-color: #bad6bb;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .bt:hover {
+	background-color: #45a049;
+  }
+
+  .btn {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	background: linear-gradient(45deg, #FF416C, #FF4B2B);
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+	transform: scale(1.1);
+  }
+  .but {
+	padding: 12px 24px;
+	font-size: 16px;
+	border: 2px solid #4CAF50;
+	background-color: transparent;
+	color: #4CAF50;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .but:hover {
+	color: white;
+	background-color: #4CAF50;
+  }
